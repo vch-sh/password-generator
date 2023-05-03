@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url('./bg.svg');
+}
+
+.container {
+	max-width: 820px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.inner {
+	margin-top: 22%;
+}
+
+h1 {
+	font-family: 'Bubblegum Sans', sans-serif;
+	margin-bottom: 45px;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	color: #000;
+	user-select: none;
+}
+
+.items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input {
+	font-family: 'Expletus Sans', sans-serif;
+	width: 550px;
+	height: 65px;
+	padding: 15px 0;
+	margin-bottom: 30px;
+	background-color: transparent;
+	border: 2px solid #000;
+	border-radius: 10px;
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	caret-color: transparent;
+	outline: none;
+}
+
+/* Buttons */
+button {
+	font-family: 'Expletus Sans', sans-serif;
+	width: 200px;
+	height: 55px;
+	margin-bottom: 30px;
+	background-color: #0080ff92;
+	color: #000000a7;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all .3s;
+}
+
+button + button {
+	margin-left: 20px;
+}
+
+button:hover {
+	background-color: #00000093;
+	color: #fff;
+	font-size: 26px;
+	letter-spacing: 4.5px;
+	box-shadow: 0 0 5px #0000007c;
+	transform: scale(1.1);
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+.copied {
+	color: #fff;
+	font-weight: 500;
+	background-color: #000;
+}
+
+/* Slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 150px;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #ffffff60;
+  border-radius: 10px;
+  height: 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -4px;
+  background-color: #0080ff;
+  border-radius: 10px;
+  height: 16px;
+  width: 16px;
+	border: 2px solid #fffafab2;
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: #ffffff60;
+  border-radius: 10px;
+  height: 8px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: #0080ff;
+  border: none;
+  border-radius: 10px;
+  height: 16px;
+  width: 16px;
+	border: 2px solid #fffafab2;
+}
+
+.slider-value {
+	font-family: 'Expletus Sans', sans-serif;
+	font-size: 24px;
+	color: #ffffffac;
+	margin-top: 8px;
+	user-select: none;
+}
