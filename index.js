@@ -1,8 +1,8 @@
 // 1. DOM
-const input 						= document.querySelector('.input');
-const generateButton 		= document.querySelector('.btn__generate');
+const input 					= document.querySelector('.input');
+const generateButton 				= document.querySelector('.btn__generate');
 const copyButton 				= document.querySelector('.btn__copy');
-const slider 						= document.querySelector('.slider');
+const slider 					= document.querySelector('.slider');
 let sliderValue 				= document.querySelector('.slider-value');
 
 // 2. Variables
