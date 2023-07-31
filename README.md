@@ -1,4 +1,4 @@
-## [Password Generator](https://vch-sh.github.io/js-password-generator/) 
+## [Password Generator](https://vch-sh.github.io/password-generator/) 
 **Ctrl/Command** + click to open a link in a new window
 
 This app allow users to choose the length of the password, generate and copy the generated password by clicking corresponding buttons. It was made made with `HTML`, `CSS`, and `JavaScript`.
